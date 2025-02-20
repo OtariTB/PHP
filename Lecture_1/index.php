@@ -18,7 +18,7 @@
             }
             echo "<hr><hr><hr>";
             echo "Hello PHP";
-            $name = "lizi";
+            $name = "Levani";
             $age = "18";
             echo "<h2>სახელი: $name; ასაკი: $age</h2>";
             $info = ["Otar", 19, 3.8, true, "GAU"];
