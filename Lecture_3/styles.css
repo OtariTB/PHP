@@ -7,11 +7,11 @@ body {
     height: 100vh;
     margin: 0;
 }
-.b1{
+    .b1{
         background-color: #4CAF50;
         border: none;
         border-radius: 14px;
-        height: 30px;
+        height: 40px;
         width: 180px;
         color: white;
         transition: 200ms;

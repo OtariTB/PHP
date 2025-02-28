@@ -6,7 +6,8 @@
         ['question' => "What is JS?", 'maxpoint' => 3],
         ['question' => "What is MySql?", 'maxpoint' => 7],
         ['question' => "What is C#?", 'maxpoint' => 10],
-        ['question' => "What is Jquery?", 'maxpoint' => 10],
+        ['question' => "What is JQuery?", 'maxpoint' => 10],
         ['question' => "What is PHP?", 'maxpoint' => 8]
-    ]
+    ];
+    shuffle($questions)
 ?>
