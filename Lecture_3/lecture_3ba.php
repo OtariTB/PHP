@@ -28,7 +28,7 @@ include 'questions.php';
             <td><?=$questions[$i]['question']?></td>
             <td><?=$_POST["answer"][$i]?></td>
             <td><?=$questions[$i]['maxpoint']?></td>
-            <td><input class = "inp" type="text"></td>
+            <td><input class = "inp" type="text" name="mark[]"></td>
         </tr>
         <?php
             }
