@@ -52,3 +52,13 @@ table {
         color: red;
         font-size: 16em;
     }
+    .d1{
+        width: 50%; 
+        margin: auto; 
+        border: solid 1px black; 
+        padding: 20px; 
+        text-align: center; 
+        background-color: rgb(183, 214, 223); 
+        border-radius: 16px; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
