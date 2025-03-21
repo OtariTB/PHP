@@ -54,7 +54,7 @@
                         </td>
                         <td><?= $content[$i]?></td>
                         <td>
-                            <a href="">Delete</a>
+                            <a href="delete<?= $i?>.php?content=<?= $content[$i]?>">Delete</a>
                         </td>
                     </tr>
                     <?php
