@@ -23,6 +23,17 @@
         }
     }
 
+    if (isset($_GET['delete'])) {
+        $item_to_delete = $_GET['delete'];
+        $path = "storage/" . $item_to_delete;
+        if (is_dir($path)) {
+            array_map('unlink', glob("$path/*.*"));
+            rmdir($path);
+        } else {
+            unlink($path);
+        }
+    }
+
     $storage_patch = "storage";
     $content = scandir($storage_patch);
 ?>
