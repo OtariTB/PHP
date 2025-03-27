@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="d1">
+        <h3>ფაილის ატვირთვა</h3>
         <form action="" method = "post" enctype="multipart/form-data">
             <input type="file" name="file" placeholder="Upload file" class="inp" style="background-color: rgb(143, 189, 199);border: none;">
             <button class="b1" name="btn1">Submit</button>

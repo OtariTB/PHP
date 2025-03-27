@@ -51,7 +51,11 @@ table {
     }
     .error{
         color: red;
-        font-size: 16px;
+        font-size: 20px;
+    }
+    .success{
+        color: green;
+        font-size: 20px;
     }
     .d1{
         width: 50%; 
