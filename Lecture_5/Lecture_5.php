@@ -56,11 +56,26 @@
                         <td>
                             <a href="Lecture_5.php?delete=<?= $content[$i] ?>">Delete</a>
                         </td>
+                        <td>
+                            <a href="?insert=<?= $content[$i] ?>">Insert</a>
+                        </td>
+                        <td>
+                            <a href="?read=<?= $content[$i] ?>">Read</a>
+                        </td>
                     </tr>
                     <?php
                         }
                     ?>
             </table>
+            <div class="d1">
+                <?php
+                if(isset($_GET['insert'])){
+                    include "insert.php";
+                }else{
+                    include "read.php";
+                }
+                ?>
+            </div>
         </form>
     </div>
 </body>

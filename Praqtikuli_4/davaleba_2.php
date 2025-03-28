@@ -59,7 +59,7 @@
                         <a href='$upload_dir$file' download> $file</a>
                         <form method='GET'>
                             <input type='hidden' name='delete' value='$file'>
-                            <button type='submit' class='b1'> Delete</button>
+                            <button type='submit' class='delete-btn'> Delete</button>
                         </form>
                     </div>";
                 }
