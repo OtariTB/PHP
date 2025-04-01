@@ -32,11 +32,11 @@
                     <th>Status</th>
                     <th>Size</th>
                     <th>Name</th>
-                    <th>Action</th>
+                    <th colspan="3">Action</th>
                 </tr>
 
                     <?php
-                        for($i = 2; $i <= count($content) - 1; $i++){
+                        for ($i = 2; $i < count($content); $i++) {
                     ?>
                     <tr>
                         <td>
